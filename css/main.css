@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#Grey_text {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#badge:hover #Grey_text {
+    fill: white;
+    transform: rotate(130deg);
+}
+
+#BG_circle {
+    transition: all 1s linear;
+}
+
+#badge:hover #BG_circle {
+    fill: orange;
+}
+
+.icon-container div {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container div {
+    width: 50%;
+}
